@@ -5,14 +5,14 @@
 
     <div class="card">
         <div class="card-header">
-          <strong>Tambah Tanggal</strong>
+          <strong>Tambah Layanan</strong>
         </div>
         <div class="card-body card-block">
           <form action="{{ route('service.store') }}" method="POST">
             @csrf
             <div class="form-group">
               <div class="form-group">
-                <label for="name" class="form-control-label">Nama Service</label>
+                <label for="name" class="form-control-label">Nama Layanan</label>
                 <input  type="text"
                         name="name" 
                         value="{{ old('name') }}" 

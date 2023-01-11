@@ -19,7 +19,7 @@
                         <th>ID Tiket</th>
                         <th>Nama</th>
                         <th>No HP</th>
-                        <th>Service</th>
+                        <th>Layanan</th>
                         <th>Tanggal</th>
                         <th>Waktu</th>
                         <th>Print and View</th>
